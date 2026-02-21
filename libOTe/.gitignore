@@ -6,10 +6,15 @@
 *.user
 *.sln.docstates
 
+CMakeFiles/*
+*/CMakeFiles/*
+*cmake_install.cmake
 
-TestResults/
-linuxFrontend/
+CMakeCache.txt
+*/CMakeCache.txt
 
+*.a
+ 
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
@@ -200,6 +205,7 @@ LinuxFrontEnd/VisualGDBCache
 *.opendb
 *.pdf
 *.db
+*.sln
 
 mpsi.VC*
 
@@ -209,3 +215,4 @@ mpsi.VC*
 testout.txt
 online.txt
 offline.txt
+Makefile

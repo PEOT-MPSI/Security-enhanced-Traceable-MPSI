@@ -6,9 +6,9 @@
 *.user
 *.sln.docstates
 
-
-TestResults/
-linuxFrontend/
+CMakeFiles/*
+cmake_install.cmake
+Makefile
 
 # Build results
 [Dd]ebug/
@@ -35,6 +35,7 @@ TestResult.xml
 [Dd]ebugPS/
 [Rr]eleasePS/
 dlldata.c
+*.opendb
 
 *_i.c
 *_p.c
@@ -193,19 +194,9 @@ _Pvt_Extensions/
 ModelManifest.xml
 /WeGarbleTests__
 /thirdparty
-kProbe_*
+kProbe_data_*
+
+*.VC.db
 
 CodeDB
 LinuxFrontEnd/VisualGDBCache
-*.opendb
-*.pdf
-*.db
-
-mpsi.VC*
-
-/psir_8s.txt
-/psis_8s.txt
-
-testout.txt
-online.txt
-offline.txt

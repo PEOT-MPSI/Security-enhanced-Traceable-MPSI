@@ -5,10 +5,19 @@
 *.suo
 *.user
 *.sln.docstates
+.vs/
+*.args.json
 
+CMakeFiles/*
+*Makefile*
+*install_manifest.txt*
+*/CMakeFiles/*
+*cmake_install.cmake
 
-TestResults/
-linuxFrontend/
+CMakeCache.txt
+*/CMakeCache.txt
+
+frontend_cryptoTools/certs/*
 
 # Build results
 [Dd]ebug/
@@ -35,6 +44,7 @@ TestResult.xml
 [Dd]ebugPS/
 [Rr]eleasePS/
 dlldata.c
+*.opendb
 
 *_i.c
 *_p.c
@@ -193,19 +203,11 @@ _Pvt_Extensions/
 ModelManifest.xml
 /WeGarbleTests__
 /thirdparty
-kProbe_*
+kProbe_data_*
+
+*.VC.db
 
 CodeDB
 LinuxFrontEnd/VisualGDBCache
-*.opendb
-*.pdf
-*.db
-
-mpsi.VC*
-
-/psir_8s.txt
-/psis_8s.txt
-
 testout.txt
-online.txt
-offline.txt
+lib
